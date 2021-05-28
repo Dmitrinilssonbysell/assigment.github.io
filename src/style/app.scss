@@ -1,15 +1,12 @@
-
 @mixin borderAndMargin {
     border: 1px solid black;
     margin: 0.5%;
 }
 
-
 body {}
 
 #app-main {
     header {
-        // @include borderAndMargin();
         background: rgba(30,30,30,0.9);
         nav {
             .nav-open-cont {
