@@ -439,7 +439,7 @@ const Assigment = () => {
                                 gender={gender} 
                                 name={name}
                             />
-                            <img className={imageClass} src={image}/>
+                            <img alt="" className={imageClass} src={image}/>
                         </div>
                         <div className="list-nav">
                             <button  
