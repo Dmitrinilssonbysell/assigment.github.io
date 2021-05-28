@@ -1,0 +1,304 @@
+#main-assigment .main-container {
+  padding: 0 5%;
+}
+
+#main-assigment .main-container .title-cont {
+  margin: 0.5% auto 0.5% auto;
+  text-align: center;
+  max-width: 50%;
+  min-width: 15%;
+}
+
+#main-assigment .main-container .title-cont label {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(20, 20, 20, 0.9);
+  text-shadow: 0px 1px 2px #14283c;
+}
+
+#main-assigment .main-container .list-container {
+  border: 1px solid black;
+  margin: 0.5%;
+  background: #14283c;
+  max-width: 10%;
+  min-width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 10px #141414;
+          box-shadow: 0px 10px 10px #141414;
+}
+
+#main-assigment .main-container .list-container .section {
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main-assigment .main-container .list-container .section .list-content {
+  border: 1px solid black;
+  margin: 0.5%;
+  max-width: 10%;
+  min-width: 60%;
+  border: 2px solid white;
+  padding: 0.5% 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 5px rgba(240, 240, 240, 0.5);
+          box-shadow: 0px 5px 5px rgba(240, 240, 240, 0.5);
+}
+
+#main-assigment .main-container .list-container .section .list-content .content-image {
+  margin: 1% 2%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background: url("../image/assigmentIcon.png");
+  zoom: 1.1;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: auto;
+  min-width: 100px;
+  max-height: auto;
+  min-height: 350px;
+  border-radius: 10px;
+}
+
+#main-assigment .main-container .list-container .section .list-content .content-image-hidden {
+  display: none;
+}
+
+#main-assigment .main-container .list-container .section .list-content .list-desc-title {
+  text-align: center;
+}
+
+#main-assigment .main-container .list-container .section .list-content .list-desc-title .list-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(240, 240, 240, 0.9);
+}
+
+#main-assigment .main-container .list-container .section .list-content .list-desc-content {
+  padding: auto 2%;
+  margin: auto 2%;
+}
+
+#main-assigment .main-container .list-container .section .list-content .list-hidden {
+  display: none;
+}
+
+#main-assigment .main-container .list-container .section .list-content .desc-section {
+  max-width: 20%;
+  min-width: 25%;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#main-assigment .main-container .list-container .section .list-content .desc-section label {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+}
+
+#main-assigment .main-container .list-container .section .list-content .desc-section .desc-text {
+  font-size: 1rem;
+  color: white;
+}
+
+#main-assigment .main-container .list-container .section .list-nav {
+  max-width: 10%;
+  min-width: 10%;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+#main-assigment .main-container .list-container .section .list-nav .start {
+  background: rgba(20, 120, 240, 0.5);
+  border-radius: 10px;
+  border: 1px solid white;
+  margin: 1% 2%;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0px 1px 2px black;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  cursor: pointer;
+}
+
+#main-assigment .main-container .list-container .section .list-nav .start:hover {
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  background: rgba(20, 120, 240, 0.3);
+}
+
+#main-assigment .main-container .list-container .section .list-nav .next {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin: 1% 2%;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+}
+
+#main-assigment .main-container .list-container .section .list-nav .next:hover {
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  background: rgba(240, 240, 240, 0.9);
+}
+
+#main-assigment .main-container .list-container .section .list-text-container {
+  background: #f0f0f0;
+  border: 1px solid black;
+  padding: 0 2% 0 2%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 10px rgba(10, 10, 10, 0.7);
+          box-shadow: 0px 10px 10px rgba(10, 10, 10, 0.7);
+}
+
+#main-assigment .main-container .list-container .section .list-text-container li {
+  cursor: pointer;
+  list-style: none;
+}
+
+#main-assigment .main-container .list-container .section .list-text-container li .text {
+  font-size: 1.1rem;
+  color: #0a0a0a;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  font-weight: 600;
+}
+
+#main-assigment .main-container .list-container .section .list-text-container li .text:hover {
+  color: rgba(20, 20, 20, 0.7);
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.image {
+  position: absolute;
+  top: 900px;
+  bottom: auto;
+  left: 2200px;
+  right: auto;
+  border: 1px solid white;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  width: 1200px;
+  height: 900px;
+  zoom: 0.3;
+}
+
+.close-btn {
+  position: relative;
+  left: 450px;
+  color: white;
+  text-shadow: 0px 1px 2px black;
+  font-weight: 600;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  background: #f05a46;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-box-shadow: 0px 2px 0px black;
+          box-shadow: 0px 2px 0px black;
+}
+
+.close-btn:hover {
+  -webkit-box-shadow: 0px 0px 0px black;
+          box-shadow: 0px 0px 0px black;
+  background: rgba(240, 90, 70, 0.8);
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.close-btn-hidden {
+  display: none;
+}
+
+form {
+  margin: 1% 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form .search-content {
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid black;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  max-width: 10%;
+  min-width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0px 7px 10px black;
+          box-shadow: 0px 7px 10px black;
+  border-radius: 10px;
+  border: 0px solid transparent;
+}
+
+form .search-content input {
+  margin: 0 auto 0 auto;
+  font-size: 1.4rem;
+  max-width: 5%;
+  min-width: 90%;
+  padding: 0 1%;
+  border: 0px solid transparent;
+  border-radius: 5px;
+}
+
+#list-container {
+  margin: 0;
+}
+
+#list-container .list-box {
+  margin: 0;
+  margin: 1% 0;
+}
+
+#list-container .list-box ul {
+  margin: 0;
+  text-align: center;
+  min-width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#list-container .list-box ul .li-list {
+  max-width: 10%;
+  min-width: 15%;
+  list-style: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+#list-container .list-box ul .li-list:hover {
+  color: rgba(50, 50, 50, 0.8);
+  font-weight: 600;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+/*# sourceMappingURL=assigment.css.map */

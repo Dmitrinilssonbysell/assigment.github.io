@@ -1,0 +1,90 @@
+@mixin borderAndMargin {
+    border: 1px solid black;
+    margin: 0.5%;
+}
+
+#main-home {
+    // @include borderAndMargin();
+    animation: home 3s;
+    @keyframes home {
+        from {opacity: 0%;}
+    }
+    .home-image {
+        background: url("../image/homePic1.png");
+        background-position: center;
+        zoom: 1;
+        background-repeat: no-repeat;
+        max-width: 10px;
+        min-width: 920px;
+        max-height: 10px;
+        min-height: 260px;
+    }
+    .home-title-sub {
+        border-left: 5px groove rgba(10,10,10, 0.3);
+        border-right: 5px groove rgba(10,10,10, 0.3);
+        background: rgba(0,90,120, 0.8);
+        margin: 1% auto 1% auto;
+        padding: 1%;        
+        max-width: 10%;
+        min-width: 50%;
+        border-radius: 50px;
+        box-shadow: 0px 5px 10px black;
+        .title-cont {
+            h2 {
+                font-size: 1.7rem;
+                color: white;
+                text-shadow: 0px 2px 2px black;
+            }
+        }
+        .sub-desc-cont {
+            margin: 2% auto 0 auto;
+            max-width: 5%;
+            min-width: 90%;
+            label {
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: white;
+                text-shadow: 0px 2px 2px black;
+                cursor: pointer;
+                transition-duration: 200ms;
+            }
+            label:hover {
+                text-shadow: 0px 1px 0px black;
+                color: rgba(240,240,240, 0.9);
+                transition-duration: 200ms;
+            }
+        }
+        .sub-cont {
+            margin: auto;
+            max-width: 5%;
+            min-width: 90%;
+            .sub-text {
+                margin: 0.3% 0 0 0;
+                font-style: italic;
+                color: white;
+                font-size: 1.3rem;
+                color: black;
+                // text-shadow: 0px 0px 1px white;
+                font-weight: 500;
+            }
+        }
+        .all {
+            margin: 3% auto 0% auto;
+            max-width: 50%;
+            min-width: 20%;
+            text-align: center;
+            color: rgba(240, 240, 240, 1);
+            text-shadow: 0px 2px 2px black;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-decoration-line: underline;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition-duration: 150ms;
+        }
+        .all:hover {
+            color: rgba(240, 240, 240, 0.7);
+            transition-duration: 150ms;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+#app-main header {
+  background: rgba(30, 30, 30, 0.9);
+}
+
+#app-main header nav .nav-open-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#app-main header nav .nav-open-cont .nav-title {
+  padding: 0.1% 1% 0% 0;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+#app-main header nav .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-shadow: 0px 10px 10px rgba(10, 10, 10, 0.7);
+          box-shadow: 0px 10px 10px rgba(10, 10, 10, 0.7);
+  margin: 0;
+}
+
+#app-main header nav .nav-menu li {
+  list-style: none;
+  padding: 0.5% 1%;
+}
+
+#app-main header nav .nav-menu li a {
+  color: white;
+  font-size: 1.7rem;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  font-weight: 600;
+}
+
+#app-main header nav .nav-menu li a:hover {
+  color: rgba(0, 100, 240, 0.9);
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: rgba(30, 30, 30, 0);
+          text-decoration-color: rgba(30, 30, 30, 0);
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+/*# sourceMappingURL=app.css.map */
