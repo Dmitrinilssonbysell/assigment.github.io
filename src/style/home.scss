@@ -4,7 +4,6 @@
 }
 
 #main-home {
-    // @include borderAndMargin();
     animation: home 3s;
     @keyframes home {
         from {opacity: 0%;}
@@ -64,7 +63,6 @@
                 color: white;
                 font-size: 1.3rem;
                 color: black;
-                // text-shadow: 0px 0px 1px white;
                 font-weight: 500;
             }
         }
