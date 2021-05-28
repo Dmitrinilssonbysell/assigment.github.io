@@ -4,6 +4,14 @@ import {
     ImageFunc
 } from "./Image"
 
+const ListBox = (props) => {
+    return(
+        <div className="list-box">
+            {props.item}
+        </div>
+    )
+}
+
 const List = (props) => {
     return(
         <div className={props.className}>
@@ -481,33 +489,15 @@ const Assigment = () => {
                     </div>
                 </form>
                 <div id="list-container">
-                    <div className="list-box">
-                        {data1}
-                    </div>
-                    <div className="list-box">
-                        {data2}
-                    </div>
-                    <div className="list-box">
-                        {data3}
-                    </div>
-                    <div className="list-box">
-                        {data4}
-                    </div>
-                    <div className="list-box">
-                        {data5}
-                    </div>
-                    <div className="list-box">
-                        {data6}
-                    </div>
-                    <div className="list-box">
-                        {data7}
-                    </div>
-                    <div className="list-box">
-                        {data8}
-                    </div>
-                    <div className="list-box">
-                        {data9}
-                    </div>
+                    <ListBox item={data1}/>
+                    <ListBox item={data2}/>
+                    <ListBox item={data3}/>
+                    <ListBox item={data4}/>
+                    <ListBox item={data5}/>
+                    <ListBox item={data6}/>
+                    <ListBox item={data7}/>
+                    <ListBox item={data8}/>
+                    <ListBox item={data9}/>
                 </div>
             </div>
         </div>
