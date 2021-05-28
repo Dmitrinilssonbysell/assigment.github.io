@@ -86,7 +86,7 @@ const Assigment = () => {
         .then(res => {
             SetDataArray(res.data.results)
         })
-    }, [index])
+    }, [index, page])
     
     function handleClick(item, index) {
         SetContentStyle("content-image-hidden")
