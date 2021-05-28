@@ -4,9 +4,7 @@
 }
 
 #main-assigment {
-    // @include borderAndMargin();
     .main-container {
-        // @include borderAndMargin();
         padding: 0 5%;
         .title-cont {
             margin: 0.5% auto 0.5% auto;
@@ -57,7 +55,6 @@
                     }
                     .list-desc-title {
                         text-align: center;
-                        // border: 1px solid black;
                         .list-title {
                             font-size: 1.5rem;
                             font-weight: 600;
@@ -65,7 +62,6 @@
                         }
                     }
                     .list-desc-content {
-                        // border: 1px solid white;
                         padding: auto 2%;
                         margin: auto 2%;
                     }
@@ -73,7 +69,6 @@
                         display: none;
                     }
                     .desc-section {
-                        // border: 1px solid white;
                         max-width: 20%;
                         min-width: 25%;
                         text-align: left;
@@ -186,7 +181,6 @@
     display: none;
 }
 
-
 form {
     margin: 1% 0 0 0;
     display: flex;
@@ -226,7 +220,6 @@ form {
             display: flex;
             justify-content: center;
             .li-list {
-                // border: 1px solid black;
                 max-width: 10%;
                 min-width: 15%;
                 list-style:none;
