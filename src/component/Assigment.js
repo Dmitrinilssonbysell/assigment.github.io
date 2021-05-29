@@ -12,6 +12,7 @@ const ListBox = (props) => {
     )
 }
 
+
 const List = (props) => {
     return(
         <div className={props.className}>
@@ -261,6 +262,7 @@ const Assigment = () => {
             return i.name.toLocaleLowerCase().match(input)
         })
     }
+
     var data1 = listArray1.map((item, index) => {
         return(
             <ul>
@@ -431,23 +433,31 @@ const Assigment = () => {
                     <div className="section">
                         <div className="list-content">
                             <div className={contentStyle}/>
-                            <button
-                                onClick={handleCloseContent}
-                                className={closeBtn}>
-                                CLOSE
-                            </button>
-                            <List
-                                className={style}
-                                birthYear={birthYear} 
-                                eyeColor={eyeColor} 
-                                hairColor={hairColor} 
-                                skinColor={skinColor} 
-                                height={height} 
-                                mass={mass} 
-                                gender={gender} 
-                                name={name}
-                            />
-                            <img alt="" className={imageClass} src={image}/>
+                            <div className="btn-cont">
+                                <button
+                                    onClick={handleCloseContent}
+                                    className={closeBtn}>
+                                    CLOSE
+                                </button>
+                            </div>
+                            <div id="image-container">
+                                <div>
+                                    <List
+                                        className={style}
+                                        birthYear={birthYear} 
+                                        eyeColor={eyeColor} 
+                                        hairColor={hairColor} 
+                                        skinColor={skinColor} 
+                                        height={height} 
+                                        mass={mass} 
+                                        gender={gender} 
+                                        name={name}
+                                    />
+                                </div>
+                                <div className="image-flex">
+                                    <img alt="" className={imageClass} src={image}/>
+                                </div>
+                            </div>
                         </div>
                         <div className="list-nav">
                             <button  
