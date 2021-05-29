@@ -1,3 +1,7 @@
+#main-assigment {
+  margin: 0 0 20% 0;
+}
+
 #main-assigment .main-container {
   padding: 0 5%;
 }
@@ -81,7 +85,7 @@
 
 #main-assigment .main-container .list-container .section .list-content .list-desc-content {
   padding: auto 2%;
-  margin: auto 2%;
+  margin: 0;
 }
 
 #main-assigment .main-container .list-container .section .list-content .list-hidden {
@@ -89,8 +93,8 @@
 }
 
 #main-assigment .main-container .list-container .section .list-content .desc-section {
-  max-width: 20%;
-  min-width: 25%;
+  max-width: 10%;
+  min-width: 100%;
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,23 +188,22 @@
 }
 
 .image {
-  position: absolute;
-  top: 900px;
-  bottom: auto;
-  left: 2200px;
-  right: auto;
-  border: 1px solid white;
-  background-position: center;
   background-repeat: no-repeat;
   border-radius: 50px;
-  width: 1200px;
-  height: 900px;
-  zoom: 0.3;
+  width: 490px;
+  height: 300px;
 }
 
-.close-btn {
-  position: relative;
-  left: 450px;
+.btn-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-cont .close-btn {
   color: white;
   text-shadow: 0px 1px 2px black;
   font-weight: 600;
@@ -214,7 +217,7 @@
           box-shadow: 0px 2px 0px black;
 }
 
-.close-btn:hover {
+.btn-cont .close-btn:hover {
   -webkit-box-shadow: 0px 0px 0px black;
           box-shadow: 0px 0px 0px black;
   background: rgba(240, 90, 70, 0.8);
@@ -222,7 +225,7 @@
           transition-duration: 200ms;
 }
 
-.close-btn-hidden {
+.btn-cont .close-btn-hidden {
   display: none;
 }
 
@@ -300,5 +303,17 @@ form .search-content input {
   font-weight: 600;
   -webkit-transition-duration: 200ms;
           transition-duration: 200ms;
+}
+
+#image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.image-flex {
+  margin: 5% 0 0 0;
 }
 /*# sourceMappingURL=assigment.css.map */
