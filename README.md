@@ -1,4 +1,4 @@
-# Front-End Assigment Remind
+# Star Wars API
 
 <b>Dmitri Nilsson Bysell</b>
 
